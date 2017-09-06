@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF365F011F4C4AD600C639A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF365F001F4C4AD600C639A4 /* AppDelegate.m */; };
+		BF365F041F4C4AD600C639A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF365F031F4C4AD600C639A4 /* main.m */; };
+		BF365F091F4C4AD600C639A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF365F081F4C4AD600C639A4 /* Assets.xcassets */; };
+		BF595E351F4C4D13006C29A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF595E341F4C4D13006C29A9 /* MainMenu.xib */; };
+		BF595E381F4D1CEE006C29A9 /* IntelPowerGadget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF595E371F4D1CEE006C29A9 /* IntelPowerGadget.framework */; };
+		BF595E3B1F4D1D3C006C29A9 /* LKCPUSentryCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF595E3A1F4D1D3C006C29A9 /* LKCPUSentryCore.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF365EFC1F4C4AD600C639A4 /* CPUSentry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUSentry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF365EFF1F4C4AD600C639A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF365F001F4C4AD600C639A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF365F031F4C4AD600C639A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF365F081F4C4AD600C639A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF365F0D1F4C4AD600C639A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF595E341F4C4D13006C29A9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		BF595E371F4D1CEE006C29A9 /* IntelPowerGadget.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntelPowerGadget.framework; path = ../../../../../../Library/Frameworks/IntelPowerGadget.framework; sourceTree = "<group>"; };
+		BF595E391F4D1D3C006C29A9 /* LKCPUSentryCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKCPUSentryCore.h; sourceTree = "<group>"; };
+		BF595E3A1F4D1D3C006C29A9 /* LKCPUSentryCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LKCPUSentryCore.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF365EF91F4C4AD600C639A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF595E381F4D1CEE006C29A9 /* IntelPowerGadget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF365EF31F4C4AD600C639A4 = {
+			isa = PBXGroup;
+			children = (
+				BF365EFE1F4C4AD600C639A4 /* CPUSentry */,
+				BF365EFD1F4C4AD600C639A4 /* Products */,
+				BF595E361F4D1CEE006C29A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF365EFD1F4C4AD600C639A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF365EFC1F4C4AD600C639A4 /* CPUSentry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF365EFE1F4C4AD600C639A4 /* CPUSentry */ = {
+			isa = PBXGroup;
+			children = (
+				BF365EFF1F4C4AD600C639A4 /* AppDelegate.h */,
+				BF365F001F4C4AD600C639A4 /* AppDelegate.m */,
+				BF595E391F4D1D3C006C29A9 /* LKCPUSentryCore.h */,
+				BF595E3A1F4D1D3C006C29A9 /* LKCPUSentryCore.mm */,
+				BF595E341F4C4D13006C29A9 /* MainMenu.xib */,
+				BF365F081F4C4AD600C639A4 /* Assets.xcassets */,
+				BF365F0D1F4C4AD600C639A4 /* Info.plist */,
+				BF365F021F4C4AD600C639A4 /* Supporting Files */,
+			);
+			path = CPUSentry;
+			sourceTree = "<group>";
+		};
+		BF365F021F4C4AD600C639A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF365F031F4C4AD600C639A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF595E361F4D1CEE006C29A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF595E371F4D1CEE006C29A9 /* IntelPowerGadget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF365EFB1F4C4AD600C639A4 /* CPUSentry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF365F101F4C4AD600C639A4 /* Build configuration list for PBXNativeTarget "CPUSentry" */;
+			buildPhases = (
+				BF365EF81F4C4AD600C639A4 /* Sources */,
+				BF365EF91F4C4AD600C639A4 /* Frameworks */,
+				BF365EFA1F4C4AD600C639A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPUSentry;
+			productName = CPUSentry;
+			productReference = BF365EFC1F4C4AD600C639A4 /* CPUSentry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF365EF41F4C4AD600C639A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HoneyLuka;
+				TargetAttributes = {
+					BF365EFB1F4C4AD600C639A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TJHSEWAH8F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF365EF71F4C4AD600C639A4 /* Build configuration list for PBXProject "CPUSentry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF365EF31F4C4AD600C639A4;
+			productRefGroup = BF365EFD1F4C4AD600C639A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF365EFB1F4C4AD600C639A4 /* CPUSentry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF365EFA1F4C4AD600C639A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF365F091F4C4AD600C639A4 /* Assets.xcassets in Resources */,
+				BF595E351F4C4D13006C29A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF365EF81F4C4AD600C639A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF365F041F4C4AD600C639A4 /* main.m in Sources */,
+				BF365F011F4C4AD600C639A4 /* AppDelegate.m in Sources */,
+				BF595E3B1F4D1D3C006C29A9 /* LKCPUSentryCore.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF365F0E1F4C4AD600C639A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF365F0F1F4C4AD600C639A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF365F111F4C4AD600C639A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TJHSEWAH8F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = CPUSentry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeyluka.CPUSentry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF365F121F4C4AD600C639A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TJHSEWAH8F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = CPUSentry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeyluka.CPUSentry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF365EF71F4C4AD600C639A4 /* Build configuration list for PBXProject "CPUSentry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF365F0E1F4C4AD600C639A4 /* Debug */,
+				BF365F0F1F4C4AD600C639A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF365F101F4C4AD600C639A4 /* Build configuration list for PBXNativeTarget "CPUSentry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF365F111F4C4AD600C639A4 /* Debug */,
+				BF365F121F4C4AD600C639A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF365EF41F4C4AD600C639A4 /* Project object */;
+}
